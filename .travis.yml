@@ -1,0 +1,7 @@
+script:
+  - .travis/build.sh
+after_success:
+  - .travis/tag.sh
+env:
+  global:
+    secure: something_goes_here
