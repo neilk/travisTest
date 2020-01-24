@@ -1,3 +1,4 @@
+lang: javascript
 script:
   - /bin/bash ./build.sh
 after_success:
