@@ -7,6 +7,7 @@ maketag() {
 }
 
 refspec="https://${GITHUB_TOKEN}@github.com/${repo}.git"
+git remote remove origin
 git remote add origin "$refspec"
 
 tag=$(maketag)
