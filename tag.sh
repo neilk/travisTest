@@ -6,4 +6,4 @@ maketag() {
 
 tag=$(maketag)
 git tag "$tag"
-git push "$tag"
+git push origin "$tag"
