@@ -14,4 +14,4 @@ git remote -v
 
 tag=$(maketag)
 git tag "$tag"
-git push tagTarget "$tag"
+git push tagTarget --tags
