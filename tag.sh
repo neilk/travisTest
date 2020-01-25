@@ -6,4 +6,4 @@ maketag() {
 
 tag=$(maketag)
 git tag "$tag"
-git push origin "$tag"
+git push origin "$tag" "https://${GITHUB_TOKEN}@github.com/neilk/travisTest.git
